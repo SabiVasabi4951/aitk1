@@ -4,64 +4,201 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Me</title>
-
+    <title>Me 2.0</title>
 </head>
 <body>
     <header>
         <h1>Сабрина</h1>
-        <p class="subtitle">участник програмы aitk</p>
+        <p class="subtitle">участник программы aitk</p>
+        
+        <nav>
+            <ul class="navigation">
+                <li><a href="#about">Обо мне</a></li>
+                <li><a href="#interests">Интересы</a></li>
+                <li><a href="#goals">Цели</a></li>
+                <li><a href="#skills">Навыки</a></li>
+                <li><a href="#contact">Контакты</a></li>
+                <li><a href="projects.html">Мои проекты</a></li>
+            </ul>
+        </nav>
     </header>
     
-    <div class="container">
-        <div class="photo-section">
-            <img src="https://media.tenor.com/3YunLjG4jrEAAAAe/sendy-cat-meme.png" 
-                 alt="мое фото(почти)" 
-                 class="profile-photo">
-        </div>
-        
-        <div class="content">
-            <section>
-                <h2>Обо мне</h2>
-                <p>Привет! Меня зовут Саби, и я frontend-разработчик. Ну пока еще не до конца</p>
-                <p>Я все еще учусь и развиваюсь, хочу в будущем прокачать навыки и стать лучше</p>
-                <p>Помимо программирования, я увлекаюсь рисованием и игрой в шахматы </p>
-                <p>Хочу завести побольше друзей разделяющие мои интересы!</p>
-            </section>
-            
-            <div class="lists-container">
-                <section class="list-card">
-                    <h2>Мои интересы</h2>
-                    <ul>
-                        <li>Веб-разработка </li>
-                        <li>Диджитал рисование и дизайнинг</li>
-                        <li>Игра в шахматы</li>
-                        <li>просмотр различной медии</li>
-                        <li>Настольные игры и головоломки</li>
-                    </ul>
-                </section>
-                
-                <section class="list-card">
-                    <h2>Мои цели</h2>
-                    <ol>
-                        <li>Освоить разработку мобильных приложений</li>
-                        <li>Запустить собственный онлайн-курс по frontend-разработке</li>
-                        <li>Разработать дизайн для мобильного приложения или игры</li>
-                        <li>Изучить основы backend-разработки</li>
-                    </ol>
-                </section>
+    <main>
+        <div class="container">
+            <div class="photo-section">
+                <img src="https://media.tenor.com/3YunLjG4jrEAAAAe/sendy-cat-meme.png" 
+                     alt="Мое фото (почти)" 
+                     class="profile-photo">
             </div>
             
-            <section>
-                <h2>где меня можно встретить</h2>
-                <p>Я делюсь своими творческими работами и процессом создания в социальных сетях. Вы можете посмотреть мои рисунки, фотографии и следить за моими творческими проектами.</p>
-                <a href="https://youtu.be/xvFZjo5PgG0?si=G49j4_MoxA29i2cx" target="_blank" class="social-link">ссылочка на ютуб видосик</a>
-            </section>
+            <div class="content">
+                <article id="about">
+                    <h2>Обо мне</h2>
+                    <p>Привет! Меня зовут <strong>Саби</strong>, и я начинающий frontend-разработчик. Ну, пока еще не до конца, но я активно учусь!</p>
+                    <p>Я все еще учусь и развиваюсь, хочу в будущем прокачать навыки и стать <em>настоящим профессионалом</em> в веб-разработке.</p>
+                    <p>Помимо программирования, я увлекаюсь <strong>рисованием</strong> и игрой в <strong>шахматы</strong> - это помогает мне развивать стратегическое мышление.</p>
+                    <p>Хочу завести побольше друзей, разделяющих мои интересы!</p>
+                </article>
+                
+                <hr>
+                
+                <div class="lists-container">
+                    <section class="list-card" id="interests">
+                        <h2>Мои интересы</h2>
+                        <ul>
+                            <li><strong>Веб-разработка</strong> и создание красивых сайтов</li>
+                            <li>Диджитал рисование и <em>дизайнинг</em></li>
+                            <li>Игра в шахматы</li>
+                            <li>Просмотр различной медиа: фильмы, сериалы, аниме</li>
+                            <li>Настольные игры и головоломки</li>
+                        </ul>
+                    </section>
+                    
+                    <section class="list-card" id="goals">
+                        <h2>Мои цели</h2>
+                        <ol>
+                            <li>Освоить разработку мобильных приложений</li>
+                            <li>Запустить собственный онлайн-курс по <strong>frontend-разработке</strong></li>
+                            <li>Разработать дизайн для мобильного приложения или игры</li>
+                            <li>Изучить основы <em>backend-разработки</em></li>
+                            <li>Создать свой первый коммерческий проект</li>
+                            <li>Найти стажировку в IT-компании</li>
+                        </ol>
+                    </section>
+                </div>
+                
+                <hr>
+                
+                <section id="skills">
+                    <h2>Мои навыки и прогресс</h2>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Навык</th>
+                                <th>Уровень</th>
+                                <th>Время изучения</th>
+                                <th>Статус</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>HTML5</td>
+                                <td>Продвинутый</td>
+                                <td>6 месяцев</td>
+                                <td>Освоен</td>
+                            </tr>
+                            <tr>
+                                <td>CSS3</td>
+                                <td>Средний</td>
+                                <td>5 месяцев</td>
+                                <td> В процессе</td>
+                            </tr>
+                            <tr>
+                                <td>JavaScript</td>
+                                <td>Начальный</td>
+                                <td>3 месяца</td>
+                                <td>Учу</td>
+                            </tr>
+                            <tr>
+                                <td>Figma/Дизайн</td>
+                                <td>Средний</td>
+                                <td>4 месяца</td>
+                                <td>Практикую</td>
+                            </tr>
+                            <tr>
+                                <td>Git/GitHub</td>
+                                <td>Начальный</td>
+                                <td>2 месяца</td>
+                                <td>Изучаю</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </section>
+                
+                <hr>
+                
+                <section id="projects-preview">
+                    <h2>Недавние проекты</h2>
+                    <div class="projects-container">
+                        <div class="project-card">
+                            <h3>Первый сайт-визитка</h3>
+                            <p>Мой самый первый HTML/CSS проект, который вы сейчас просматриваете!</p>
+                            <a href="projects.html#project1">Подробнее →</a>
+                        </div>
+                        
+                        <div class="project-card">
+                            <h3>Шахматный таймер</h3>
+                            <p>Веб-приложение таймера для игры в шахматы с настройками времени.</p>
+                            <a href="projects.html#project2">Подробнее →</a>
+                        </div>
+                        
+                        <div class="project-card">
+                            <h3>Галерея рисунков</h3>
+                            <p>Онлайн-галерея моих цифровых рисунков с фильтрами по категориям.</p>
+                            <a href="projects.html#project3">Подробнее →</a>
+                        </div>
+                    </div>
+                    <div class="center-link">
+                        <a href="projects.html" class="social-link">Все мои проекты →</a>
+                    </div>
+                </section>
+                
+                <hr>
+                
+                <section id="contact">
+                    <h2>Свяжитесь со мной</h2>
+                    <p>Если вы хотите обсудить коллабу, предложить проект или просто познакомиться — заполните форму ниже!</p>
+                    
+                    <form action="#" method="post">
+                        <div class="form-group">
+                            <label for="name">Ваше имя:</label>
+                            <input type="text" id="name" name="name" required placeholder="Введите ваше имя">
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="email">Ваш email:</label>
+                            <input type="email" id="email" name="email" required placeholder="example@mail.com">
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="message">Сообщение:</label>
+                            <textarea id="message" name="message" rows="5" required placeholder="Напишите ваше сообщение здесь..."></textarea>
+                        </div>
+                        
+                        <div class="form-group checkbox-group">
+                            <input type="checkbox" id="consent" name="consent" required>
+                            <label for="consent">Я согласен(на) на обработку персональных данных и хранение этого сообщения</label>
+                        </div>
+                        
+                        <div class="form-buttons">
+                            <button type="submit" class="submit-btn">Отправить сообщение</button>
+                            <button type="reset" class="reset-btn">Очистить форму</button>
+                        </div>
+                    </form>
+                </section>
+                
+                <hr>
+                
+                <section id="social">
+                    <h2>Где меня можно встретить</h2>
+                    <p>Я делюсь своими творческими работами и процессом создания в социальных сетях. Вы можете посмотреть мои рисунки, фотографии и следить за моими творческими проектами.</p>
+                    <div class="social-links">
+                        <a href="https://youtu.be/xvFZjo5PgG0?si=G49j4_MoxA29i2cx" target="_blank" class="social-link">Ссылочка на YouTube видосик</a>
+                        <a href="https://github.com" target="_blank" class="social-link">Мой GitHub</a>
+                        <a href="https://instagram.com" target="_blank" class="social-link">Instagram с рисунками</a>
+                    </div>
+                </section>
+            </div>
         </div>
-    </div>
+    </main>
     
     <footer>
-        <p>С вами была Сабрина !</p>
+        <p>С вами была <strong>Сабрина</strong>! Спасибо за визит на мой сайт</p>
+        <nav class="footer-nav">
+            <a href="#about">К началу</a> | 
+            <a href="projects.html">Мои проекты</a> | 
+            <a href="#contact">Написать мне</a>
+        </nav>
     </footer>
 </body>
 </html>
